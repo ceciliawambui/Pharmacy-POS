@@ -88,7 +88,7 @@ $finalcode = 'RS-' . createRandomPassword();
 				</div>
 	</div>
 <input type="text" name="filter" style="padding:15px;" id="filter" placeholder="Search Customer..." autocomplete="off" />
-<a rel="facebox" href="addcustomer.php"><Button type="submit" class="btn btn-info" style="float:right; width:230px; height:35px;" /><i class="icon-plus-sign icon-large"></i> Add Patient</button></a><br><br>
+<a rel="facebox" href="addcustomer.php"><Button type="submit" class="btn btn-info" style="float:right; width:230px; height:35px;" /><i class="icon-plus-sign icon-large"></i> Add Customer</button></a><br><br>
 
 <div class="table-container">
 <table class="table table-bordered" id="resultTable" data-responsive="table" style="text-align: left;">
