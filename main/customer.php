@@ -60,17 +60,17 @@ $finalcode = 'RS-' . createRandomPassword();
 
 	<div class="container">
 	<div class="contentheader">
-			<i class="icon-group"></i> Patients
+			<i class="icon-group"></i> Customers
 			</div>
 			<ul class="breadcrumb">
 			<li><a href="index.php">Dashboard</a></li> /
-			<li class="active">Patients</li>
+			<li class="active">Customers</li>
 			</ul>
 
 		<div class="dash-links container">
 			<a  href="index.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-dashboard icon-2x"></i> DashBoard</button></a>
 			<a  href="products.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-list-alt icon-2x"></i> Drugs</button></a>
-			<a  href="customer.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-group icon-2x"></i> Patients</button></a>
+			<a  href="customer.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-group icon-2x"></i> Customers</button></a>
 			<a  href="supplier.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-group icon-2x"></i> Suppliers</button></a>
 			<a  href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-shopping-cart icon-2x"></i> Sales</button></a>
 			<a  href="salesreport.php?d1=0&d2=0"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-bar-chart icon-2x"></i> Sales Report</button></a>
@@ -84,7 +84,7 @@ $finalcode = 'RS-' . createRandomPassword();
 		$rowcount = $result->rowcount();
 		?>
 				<div style="text-align:center; margin-bottom: 10px;">
-				Total Number of Patients: <span style="color: #fff; font-size: 12pt; background:#388E3C; width:200px; margin: auto; padding: 5px; border-radius: 10px;" class="badge"><?php echo $rowcount; ?></span>
+				Total Number of Customers: <span style="color: #fff; font-size: 12pt; background:#388E3C; width:200px; margin: auto; padding: 5px; border-radius: 10px;" class="badge"><?php echo $rowcount; ?></span>
 				</div>
 	</div>
 <input type="text" name="filter" style="padding:15px;" id="filter" placeholder="Search Customer..." autocomplete="off" />

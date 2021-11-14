@@ -88,7 +88,7 @@ $finalcode = 'RS-' . createRandomPassword();
 			<a href="products.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-list-alt icon-2x"></i>
 					Drugs</button></a>
 			<a href="customer.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-group icon-2x"></i>
-					Patients</button></a>
+					Customers</button></a>
 			<a href="supplier.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon-group icon-2x"></i>
 					Suppliers</button></a>
 			<a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><button class="btn btn-default btn-large" style="float: none;"><i
