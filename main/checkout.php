@@ -94,7 +94,9 @@ background-repeat:no-repeat;
 </style>	
 </head>
 <body onLoad="document.getElementById('country').focus();">
+
 <form action="savesales.php" method="post">
+
 <div id="ac">
 <center><h4><i class="icon icon-money icon-large"></i> Cash</h4></center><hr>
 <input type="hidden" name="date" value="<?php echo date("m/d/y"); ?>" />
