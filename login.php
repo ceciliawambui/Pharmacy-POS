@@ -14,7 +14,7 @@ if (!$link) {
 	die('Failed to connect to server: ' . mysqli_error());
 }
 	
-	
+
 	
 	//Function to sanitize values received from the form. Prevents SQL injection
 function clean($str)
@@ -49,7 +49,7 @@ if ($errflag) {
 }
 	
 	//Create query
-$qry = "SELECT * FROM user WHERE username='$login' AND password='$password'";
+$qry = "SELECT * FROM users WHERE username='$login' AND password='$password'";
 $result = mysqli_query($link, $qry);
 	
 	//Check whether the query was successful or not
@@ -60,15 +60,20 @@ if ($result) {
 		$member = mysqli_fetch_assoc($result);
 		$_SESSION['SESS_MEMBER_ID'] = $member['id'];
 		$_SESSION['SESS_FIRST_NAME'] = $member['name'];
-		$_SESSION['SESS_LAST_NAME'] = $member['position'];
+		$_SESSION['SESS_LAST_NAME'] = $member['username'];
 			//$_SESSION['SESS_PRO_PIC'] = $member['profImage'];
 		session_write_close();
 		header("location: main/index.php");
 		exit();
 	} else {
+
 			//Login failed
-		header("location: index.php");
-		exit();
+			$errmsg_arr[] = 'Username or Password is wrong';
+	$errflag = true;
+		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
+	session_write_close();
+	header("location: index.php");
+	exit();
 	}
 } else {	
 	die("Query failed");

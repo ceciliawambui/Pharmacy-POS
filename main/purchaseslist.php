@@ -52,7 +52,7 @@ POS
               <li><a href="#"><i class="icon-table icon-large"></i> Products <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
               <li><a href="#"><i class="icon-group icon-large"></i> Suppliers <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
               <li><a href="sales.php"><i class="icon-bar-chart icon-large"></i> Sales Report <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
-              <li><a href="sales.php"><i class="icon-inbox icon-large"></i> Cash <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
+              <li><a href="sales.php"><i class="icon-inbox icon-large"></i>  <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
 			   <li><a href="user.php"><i class="icon-user icon-large"></i> Users <div class="pull-right"><i class="icon-circle-arrow-right icon-large"></i></div></a></li>
             </ul>
           </div><!--/.well -->

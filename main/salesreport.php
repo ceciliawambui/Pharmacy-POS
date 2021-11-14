@@ -174,7 +174,7 @@ $finalcode = 'RS-' . createRandomPassword();
 				</tbody>
 				<thead>
 					<tr>
-						<th colspan="4" style="border-top:1px solid #999999"> Total: </th>
+						<th colspan="5" style="border-top:1px solid #999999"> Total: </th>
 						<th colspan="1" style="border-top:1px solid #999999">
 							<?php
 						function formatMoney($number, $fractional = false)

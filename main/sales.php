@@ -102,7 +102,7 @@ $position=$_SESSION['SESS_LAST_NAME'];?>
 <option value="">Select prescription drugs</option>
 	<?php
 	include('../connect.php');
-	$result = $link->prepare("SELECT * FROM products");
+	$result = $link->prepare("SELECT * FROM products WHERE DATE(expiry_date)>DATE(NOW())");
 		$result->execute();
 		for($i=0; $row = $result->fetch(); $i++){
 	?>

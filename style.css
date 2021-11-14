@@ -17,7 +17,13 @@ td a:hover {
 }
 
 div#login {
-	height: 250px;
+	height: 350px;
+	color: #ffffff;
+	box-shadow: 2px 4px 14px #4e4e4e;
+}
+
+div#register {
+	height: 500px;
 	color: #ffffff;
 	box-shadow: 2px 4px 14px #4e4e4e;
 }

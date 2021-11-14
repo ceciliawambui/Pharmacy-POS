@@ -69,6 +69,22 @@ $position = $_SESSION['SESS_LAST_NAME']; ?>
 			<li class="active">Dashboard</li>
 			</ul>
 <div id="mainmain">
+<a href="customer.php">
+	<article class="links three">
+		<i class="icon-group icon-4x"></i><br>Customers
+	</article>
+</a>   
+
+<a href="supplier.php">
+	<article class="links four">
+		<i class="icon-group icon-4x"></i><br>Suppliers
+	</article>
+</a> 
+<a href="products.php">
+	<article class="links two">
+		<i class="icon-list-alt icon-4x"></i><br>Stock
+	</article>
+</a> 
 
 <a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>">
 		<article class="links one">	
@@ -76,23 +92,10 @@ $position = $_SESSION['SESS_LAST_NAME']; ?>
 		</article>
 </a>               
 
-<a href="products.php">
-	<article class="links two">
-		<i class="icon-list-alt icon-4x"></i><br>Stock
-	</article>
-</a>      
+     
 
-<a href="customer.php">
-	<article class="links three">
-		<i class="icon-group icon-4x"></i><br>Customers
-	</article>
-</a>     
 
-<a href="supplier.php">
-	<article class="links four">
-		<i class="icon-group icon-4x"></i><br>Suppliers
-	</article>
-</a>     
+    
 <a href="salesreport.php?d1=0&d2=0">
 	<article class="links five">
 		<i class="icon-bar-chart icon-4x"></i><br>Sales Report
